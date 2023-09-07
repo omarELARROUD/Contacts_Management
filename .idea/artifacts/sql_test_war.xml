@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sql-test:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sql-test</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sql-test-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sql-test:war exploded" />
+    </root>
+  </artifact>
+</component>
